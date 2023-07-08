@@ -4,7 +4,7 @@ local dap = require("dap")
 dap.adapters.cppdbg = {
 	id = "cppdbg",
 	type = "executable",
-	command = "/home/jack/.config/nvim/cpptools/extension/debugAdapters/bin/OpenDebugAD7"
+	command = "/home/jack/.config/cpptools/extension/debugAdapters/bin/OpenDebugAD7"
 }
 dap.configurations.cpp = {
   {
